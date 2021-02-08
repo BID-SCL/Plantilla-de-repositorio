@@ -2,7 +2,10 @@
 [![Analytics](https://gabeacon.irvinlim.com/UA-4677001-16/Plantilla-de-repositorio/readme?useReferer)](https://github.com/EL-BID/Plantilla-de-repositorio/)
 
 ## Plantilla de Documentación de Soporte y Uso de herramientas digitales - README.md
+
 Esta es una plantilla basada en los estándares de la Guía de publicacion de herramientas digitales del BID. Sabemos que no existe un solo estándar para la documentación de soporte y uso de herramientas digitales pero hemos recopilado estas características importantes que debe tener un readme.md para facilitar el uso y amplificar el potencial de impacto de las mismas. Cualquier comentario o recomendación les pedimos generar un issue de consulta o escribirnos directamente a code@iadb.org.
+
+Esta versión está adaptada para SCL con un enfoque en proyectos analíticos utilizando R, python o STATA principalmente.
 
 ## La plantilla empieza aquí 👇
 
@@ -20,6 +23,7 @@ Esta es una plantilla basada en los estándares de la Guía de publicacion de he
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
+- [Estructura de repositorio](#estructura-de-repositorio)
 - [Cómo contribuir](#cómo-contribuir)
 - [Código de conducta](#código-de-conducta)
 - [Autor/es](#autores)
@@ -63,6 +67,7 @@ Asegúrate de empezar este archivo con una breve descripción sobre las funciona
 ---
 Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
  	
+
 ## Guía de instalación
 ---
 Paso a paso de cómo instalar la herramienta digital. En esta sección es recomendable explicar la arquitectura de carpetas y módulos que componen el sistema.
@@ -73,6 +78,35 @@ La guía de instalación debe contener de manera específica:
 - Los requisitos del sistema operativo para la compilación (versiones específicas de librerías, software de gestión de paquetes y dependencias, SDKs y compiladores, etc.).
 - Las dependencias propias del proyecto, tanto externas como internas (orden de compilación de sub-módulos, configuración de ubicación de librerías dinámicas, etc.).
 - Pasos específicos para la compilación del código fuente y ejecución de tests unitarios en caso de que el proyecto disponga de ellos.
+
+### Convenciones generales
+
+#### Estructura de repositorio 
+    .
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── data                    # Data should not be uploaded to git!!.
+    ├── src/project name        # Source files 
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    ├── .gitignore              # ![Template](https://github.com/BID-SCL/Plantilla-de-repositorio/blob/master/.gitignore)
+    └── README.md
+
+#### Guias de estilo 
+- Python 
+-- General ![PEP-8](https://www.python.org/dev/peps/pep-0008/) 
+-- Particular ![scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
+- R 
+-- General ![PEP-8](https://www.python.org/dev/peps/pep-0008/) 
+- Stata: 
+-- General ![NJ Cox 2005](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
+-- Particular ![scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
+
+#### Convenciones generales
+
+- El uso de Dockerfiles es recomendado
+- En caso de que el proyecto sea python incluir pip requirements.txt para especificar dependencias. ![packrat](https://github.com/rstudio/packrat)
+- En caso de que el proyecto sea R incluir ![packrat](https://github.com/rstudio/packrat)
 
 ### Dependencias
 Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
