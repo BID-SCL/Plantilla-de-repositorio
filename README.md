@@ -93,14 +93,14 @@ La guía de instalación debe contener de manera específica:
     └── README.md
 
 #### Guias de estilo 
-- Python 
--- General [PEP-8](https://www.python.org/dev/peps/pep-0008/) 
--- Particular [scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
-- R 
--- General [PEP-8](https://www.python.org/dev/peps/pep-0008/) 
-- Stata: 
--- General [NJ Cox 2005](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
--- Particular [scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
+* Python 
+  * [General](https://www.python.org/dev/peps/pep-0008/) 
+  * [SCL](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
+* R 
+  * [General](https://google.github.io/styleguide/Rguide.html) 
+* Stata: 
+  * [General](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
+  * [SCL](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
 
 #### Convenciones generales
 
