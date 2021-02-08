@@ -89,24 +89,24 @@ La guía de instalación debe contener de manera específica:
     ├── test                    # Automated tests (alternatively `spec` or `tests`)
     ├── tools                   # Tools and utilities
     ├── LICENSE
-    ├── .gitignore              # ![Template](https://github.com/BID-SCL/Plantilla-de-repositorio/blob/master/.gitignore)
+    ├── .gitignore              # [Template](https://github.com/BID-SCL/Plantilla-de-repositorio/blob/master/.gitignore)
     └── README.md
 
 #### Guias de estilo 
 - Python 
--- General ![PEP-8](https://www.python.org/dev/peps/pep-0008/) 
--- Particular ![scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
+-- General [PEP-8](https://www.python.org/dev/peps/pep-0008/) 
+-- Particular [scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
 - R 
--- General ![PEP-8](https://www.python.org/dev/peps/pep-0008/) 
+-- General [PEP-8](https://www.python.org/dev/peps/pep-0008/) 
 - Stata: 
--- General ![NJ Cox 2005](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
--- Particular ![scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
+-- General [NJ Cox 2005](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
+-- Particular [scl](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
 
 #### Convenciones generales
 
 - El uso de Dockerfiles es recomendado
-- En caso de que el proyecto sea python incluir pip requirements.txt para especificar dependencias. ![packrat](https://github.com/rstudio/packrat)
-- En caso de que el proyecto sea R incluir ![packrat](https://github.com/rstudio/packrat)
+- En caso de que el proyecto sea python incluir pip requirements.txt para especificar dependencias. 
+- En caso de que el proyecto sea R incluir [packrat](https://github.com/rstudio/packrat)
 
 ### Dependencias
 Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
@@ -133,7 +133,7 @@ Esta es la sección que permite agregar más información de contexto al proyect
 
 ## Licencia 
 ---
-[LICENCIA](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/LICENSE.md)
+[LICENCIA](https://github.com/BID-SCL/Plantilla-de-repositorio/blob/master/LICENSE.md)
 
 La licencia especifica los permisos y las condiciones de uso que el desarrollador otorga a otros desarrolladores que usen y/o modifiquen la herramienta digital.
 
