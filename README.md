@@ -106,20 +106,20 @@ Es mucho más fácil entender una gran base de código cuando todo el código co
   * [General](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
   * [SCL](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
 
-* [C++ Style Guide][https://google.github.io/styleguide/cppguide.html]
-* [C# Style Guide][https://google.github.io/styleguide/csharp-style.html],
-* [Swift Style Guide][https://google.github.io/swift/]
-* [Objective-C Style Guide][https://google.github.io/styleguide/objcguide.html],
-* [Java Style Guide][https://google.github.io/styleguide/javaguide.html]
-* [Shell Style Guide][https://google.github.io/styleguide/shellguide.html]
-* [HTML/CSS Style Guide][https://google.github.io/styleguide/htmlcssguide.html],
-* [JavaScript Style Guide][https://google.github.io/styleguide/jsguide.html]
-* [AngularJS Style Guide][https://google.github.io/styleguide/angularjs-google-style.html],
-* [Common Lisp Style Guide][https://google.github.io/styleguide/lispguide.xml]
+* [C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+* [C# Style Guide](https://google.github.io/styleguide/csharp-style.html)
+* [Swift Style Guide](https://google.github.io/swift/)
+* [Objective-C Style Guide](https://google.github.io/styleguide/objcguide.html)
+* [Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+* [Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+* [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+* [JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+* [AngularJS Style Guide](https://google.github.io/styleguide/angularjs-google-style.html)
+* [Common Lisp Style Guide](https://google.github.io/styleguide/lispguide.xml)
 
 ## Vulnerability Scanning
 
-- Todo proyecto debe pasar un test scann resolviendo bugs y vulnerabilidades de seguridad. Se puede utilizar el proyecto Opensource [SonarQube][https://github.com/SonarSource/sonarqube] para estos fines. 
+- Todo proyecto debe pasar un test scann resolviendo bugs y vulnerabilidades de seguridad. Se puede utilizar el proyecto Opensource [SonarQube](https://github.com/SonarSource/sonarqube) para estos fines. 
 
 #### Recomendaciones generales
 
@@ -131,7 +131,6 @@ Es mucho más fácil entender una gran base de código cuando todo el código co
 Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
 
     Puedes usar este estilo de letra diferenciar los comandos de instalación.
-
 
 
 ## Cómo contribuir
