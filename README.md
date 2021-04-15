@@ -119,7 +119,7 @@ Es mucho más fácil entender una gran base de código cuando todo el código co
 
 ## Vulnerability Scanning
 
-- Todo repositorio de código debe pasar test de SonarQube resolviendo bugs y vulnerabilidades de seguridad.
+- Todo proyecto debe pasar un test scann resolviendo bugs y vulnerabilidades de seguridad. Se puede utilizar el proyecto Opensource [SonarQube][https://github.com/SonarSource/sonarqube] para estos fines. 
 
 #### Recomendaciones generales
 
