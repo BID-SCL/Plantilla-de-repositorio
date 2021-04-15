@@ -21,6 +21,7 @@ Esta versión está adaptada para IADB-SCL con un enfoque en proyectos analític
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
 - [Estructura de repositorio](#estructura-de-repositorio)
+- [Vulnerability Scanning](#vulnerability_scanning) 
 - [Cómo contribuir](#cómo-contribuir)
 - [Código de conducta](#código-de-conducta)
 - [Autor/es](#autores)
@@ -89,16 +90,36 @@ La guía de instalación debe contener de manera específica:
     ├── .gitignore              # [Template](https://github.com/BID-SCL/Plantilla-de-repositorio/blob/master/.gitignore)
     └── README.md
 
+
 #### Guias de estilo 
+
+Es mucho más fácil entender una gran base de código cuando todo el código contiene tiene un estilo coherente. 
 
 * Python 
   * [General](https://www.python.org/dev/peps/pep-0008/) 
   * [SCL](https://github.com/BID-SCL/styleguides_scl/blob/master/code/python_styleguide.md) 
+
 * R 
   * [General](https://google.github.io/styleguide/Rguide.html) 
+
 * Stata: 
   * [General](https://journals.sagepub.com/doi/pdf/10.1177/1536867X0500500406) 
   * [SCL](https://github.com/BID-SCL/styleguides_scl/blob/master/code/stata_styleguide.md) 
+
+* [C++ Style Guide][https://google.github.io/styleguide/cppguide.html]
+* [C# Style Guide][https://google.github.io/styleguide/csharp-style.html],
+* [Swift Style Guide][https://google.github.io/swift/]
+* [Objective-C Style Guide][https://google.github.io/styleguide/objcguide.html],
+* [Java Style Guide][https://google.github.io/styleguide/javaguide.html]
+* [Shell Style Guide][https://google.github.io/styleguide/shellguide.html]
+* [HTML/CSS Style Guide][https://google.github.io/styleguide/htmlcssguide.html],
+* [JavaScript Style Guide][https://google.github.io/styleguide/jsguide.html]
+* [AngularJS Style Guide][https://google.github.io/styleguide/angularjs-google-style.html],
+* [Common Lisp Style Guide][https://google.github.io/styleguide/lispguide.xml]
+
+## Vulnerability Scanning
+
+- Todo repositorio de código debe pasar test de SonarQube resolviendo bugs y vulnerabilidades de seguridad.
 
 #### Recomendaciones generales
 
@@ -110,6 +131,8 @@ La guía de instalación debe contener de manera específica:
 Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
 
     Puedes usar este estilo de letra diferenciar los comandos de instalación.
+
+
 
 ## Cómo contribuir
 ---
